@@ -10,6 +10,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 230px;
 }
 .nav-tittle{
   color: var(--Dark-01, #181818);
@@ -46,4 +47,31 @@ padding: 18px 35px;
 }
 .Orange-text{
   color: orangered;
+}
+/* header style */
+
+header{
+background-color:#FFF8F3 ;
+}
+.banner{
+  display: flex;
+ padding: 30px 30px 30px 230px;
+  text-align: center;
+
+}
+img{
+  width: 584px;
+
+}
+.banner .banner-tittle{
+font-size: 85px;
+font-weight: 700;
+}
+.banner .banner-welcome{
+font-size: 45px;
+font-weight: 600;
+}
+.banner > p{
+  font-size: 18px;
+font-weight: 400;
 }
