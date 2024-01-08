@@ -151,11 +151,18 @@ height: 44px;
   text-align: center;
 }
 /* resume style  */
+
+.resume-title{
+  color: #474747);
+
+}
+
 .resume-container{
   display: flex;
   gap: 0px 70px;
   margin: 20px 230px;
 }
-*primary-btn{
+.dowload-btn{
   text-align: center;
+  margin-top: 150px;
 }
