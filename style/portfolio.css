@@ -10,7 +10,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 230px;
+ margin: 0px 230px 0px 230px;
 }
 .nav-tittle{
   color: var(--Dark-01, #181818);
@@ -55,17 +55,18 @@ background-color:#FFF8F3 ;
 }
 .banner{
   display: flex;
+  gap: 250px;
  padding: 30px 30px 0px 230px;
   text-align: center;
-  background-image: url('../images/header_bg.png');
+  background-image: url('../images/header_bg.png'),url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
-  justify-content: space-between;
+  background-position: bottom right,bottom left;
 
 }
 img{
   width: 584px;
  height: 676px;
+ 
 }
 .banner-greeting{
   max-width: 500px;
